@@ -1,0 +1,30 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# logs
+*.log
+logs/
+
+# dependencies
+node_modules/
+
+# build artifacts
+dist/
+build/
+out/
+
+# cache
+.cache/
+.tmp/
+tmp/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
